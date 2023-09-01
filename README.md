@@ -1,2 +1,1 @@
-# Python Package Template
-
+# 量潮高校官网爬虫
