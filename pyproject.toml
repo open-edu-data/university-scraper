@@ -1,27 +1,18 @@
-[build-system]
-requires = ["setuptools>=61", "setuptools.scm"]
-build-backend = "setuptools.build_meta"
-
 [project]
-# name it as your package name
-name = "quanttide-template-of-python-project"
-# semetric versions
+name = "university-scrapers"
 version = "0.1.0-alpha.1"
-# describe the package within one sentence
-description = "QuantTide Template of Python Project"
-authors = [{name = "QuantTide Inc.", email = "opensource@quanttide.com"}]
-classifiers = [
-    "Programming Language :: Python :: 3",
+description = "University Website Scraperes"
+authors = [
+    {name = "QuantTide", email = "opensource@quanttide.com"},
 ]
-requires-python = '>=3'
 dependencies = [
+    "autoscraper>=1.1.14",
+    "mlscraper>=1.0.0rc3",
 ]
-# dynamic = ["version"]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "Apache 2.0"}
 
-[project.license]
-# create your license and name it as "LICENSE"
-file = "LICENSE"
 
-[project.readme]
-file = "README.md"
-content-type = "text/markdown"
+[tool.pdm]
+distribution = false

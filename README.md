@@ -1,1 +1,4 @@
-# 量潮高校官网爬虫
+# `university-crawlers`
+
+University Website Crawlers
+
