@@ -1,4 +1,4 @@
-# `university-crawlers`
+# `university-scrapers`
 
-University Website Crawlers
+University Website Scrapers
 
